@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Conv">
+    <output-path>$PROJECT_DIR$/out/artifacts/Conv</output-path>
+    <root id="root">
+      <element id="archive" name="Conv.jar">
+        <element id="module-output" name="Conv" />
+      </element>
+    </root>
+  </artifact>
+</component>
