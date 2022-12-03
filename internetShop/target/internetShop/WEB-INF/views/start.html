@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Start</title>
+</head>
+<body>
+
+<a th:if="${user}" th:text="${currentUser.getName()}">user</a>
+<a th:if="${!user}" th:href="@{/start/logIn}">Log In</a>
+<br/>
+<a th:if="${!user}" th:href="@{/start/signUp}">Sign Up</a>
+
+</body>
+</html>
